@@ -1,0 +1,207 @@
+﻿ 
+/*Form_Authentification */
+
+ .auto-style4 {
+            width: 40%;
+            background-color: #fff;
+        }
+        .auto-style5 {
+            height: 26px;
+        }
+        .login_content_form
+        {
+             background:#EAE6E1;
+  border:0;
+  font-weight:bold;
+  padding:10px;
+  border-radius:3px;
+  width:100%;
+  margin:5px 0;
+  outline:medium none;
+  color:#838383;
+        }
+        .login_btn
+        {
+            display:block;
+  padding:10px;
+  background:#50BFA4;
+  border:0;
+  border-radius:3px;
+  font-weight:bold;
+  width:100%;
+  color:#fff;
+  cursor:pointer;
+  -webkit-transition:all 0.3s;
+  -moz-transition:all 0.3s;
+  transition:all 0.3s;
+        }
+        .login_btn:hover{
+  background:#ffd800;
+}
+        .main-form {
+            width: 200px;
+            margin: 100px auto;
+            padding: 10px;
+            border: 1px solid rgba(0,0,0,0.1);
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+            background: #fff;
+        }
+         a{
+  font-size:11px;
+  display:block;
+  text-align:center;
+  margin:10px 0;
+}
+a{
+  font-weight:bold;
+}
+a{
+  border:1px solid #3DA087;
+  display:inline-block;
+  border-radius:3px;
+  color:#3DA087;
+  font-weight:bold;
+  padding:7px 15px;
+  margin-left:28px;
+  -webkit-transition:all 0.3s;
+  -moz-transition:all 0.3s;
+  transition:all 0.3s;
+}
+a:hover{
+  background:#3DA087;
+  color:#fff;
+}
+ .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+}
+        
+        .BTN{
+  background:#00ffff;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:40px;
+
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+ .BTN:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+ .BTN:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+ .BTN:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+ .BTN:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+.auto-style1 {
+    background-image: url('Icons/BG2.png');
+    background-repeat:no-repeat ;
+    height: 82px;
+}
+
+        /*********************/
+        /*Form  Creation compte / */
+       
+
+        
+ .btn_creation:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+ .btn_creation:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+ .btn_creation:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+ .btn_creation
+        {
+            display:block;
+  padding:10px;
+  background:#50BFA4;
+  border:0;
+  border-radius:3px;
+  font-weight:bold;
+  width:100%;
+  color:#fff;
+  cursor:pointer;
+  -webkit-transition:all 0.3s;
+  -moz-transition:all 0.3s;
+  transition:all 0.3s;
+        }
+        .btn_creation:hover{
+  background:#ffd800;
+}
+        .create_form {
+            width: 300px;
+           margin: 50px 200px 50px;
+            padding: 10px;
+            border: 1px solid rgba(0,0,0,0.1);
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+            
+        }
+         .create_content_form
+        {
+             
+  border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    font-weight:bold;
+  height:22px;
+    border-radius:3px;
+  width:99%;
+    margin:5px 0;
+    outline:medium none;
+    color:#838383;
+        }
+
+         /******************************/
+
+         /*Bouton Profile :*/
+
+         .PBTN
+      {
+          background-color:aqua;
+          color:white;
+          font-size:18px;
+          border-radius:3px;
+  font-weight:bold;
+    margin-left: 0px;
+}
+         .PBTN:hover{
+  background:#ffd800;
+}

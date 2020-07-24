@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Gestion_Reservation.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+      #ImageButton2{
+          float:right;
+         
+      }
+      #Panel2{
+          float:right;
+
+      }
+      
+     
+      
+    </style>
+    <link rel="stylesheet"  href="Feuille_style.css" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style2" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/Icons/user.png" OnClick="ImageButton2_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Panel ID="Panel2" runat="server" HorizontalAlign="right" >
+                   <div class="flex">
+                     <asp:Button class="PBTN" ID="Button6" runat="server" Text="Profile" Width="135px" Height="40px" OnClick="Button6_Click" />
+                       <br />
+                    &nbsp;<asp:Button class="PBTN" ID="Button7" runat="server" Text="Password" Width="135px" OnClick="Button7_Click" Height="40px" />
+                    <br />
+                       </div>
+                    &nbsp;
+                    <asp:Button ID="Button8" runat="server" class="PBTN" Height="40px" OnClick="Button8_Click" Text="Portfeuille" Width="135px" />
+                    <br />
+                    <asp:Button ID="Button10" runat="server" class="PBTN" Height="40px" OnClick="Button10_Click" Text="Ma réservation" Width="135px" />
+                    <br />
+                    <asp:Button ID="Button9" runat="server" class="PBTN" Height="40px" OnClick="Button9_Click" Text="Deconnecter" Width="135px" />
+                    </asp:Panel>
+                    <br />
+&nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="20px" ImageUrl="~/Icons/menu.png" OnClick="ImageButton1_Click" OnUnload="ImageButton1_Unload" Width="27px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br />
+                    <asp:Panel ID="Panel1" runat="server">
+                        <asp:Button class="BTN" ID="Button1" runat="server" Text="Acceuil" OnClick="Button1_Click" />
+                        &nbsp;<asp:Button class="BTN" ID="Button2" runat="server" Text="Recherche" OnClick="Button2_Click" />
+                        &nbsp;<asp:Button class="BTN" ID="Button3" runat="server" Text="Annulation" OnClick="Button3_Click" />
+                        &nbsp;<asp:Button class="BTN" ID="Button4" runat="server" Text="Vols" OnClick="Button4_Click" />
+                        &nbsp;<asp:Button class="BTN" ID="Button5" runat="server" Text="Contact" OnClick="Button5_Click" />
+                    </asp:Panel>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+        <asp:ContentPlaceHolder   ID="ContentPlaceHolder1" runat="server">
+           
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
